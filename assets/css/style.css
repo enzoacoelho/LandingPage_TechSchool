@@ -178,50 +178,75 @@ h6 {
 
 .cards-content {
     width: 100%;
-    display: flex;  
-    flex-direction: row;  
-  
-  }
-  .card {    
+    display: flex;
+    flex-direction: row;
+
+}
+
+.card {
     width: 350px;
     height: 460px;
     margin: 25px;
-    background-color: #fff;    
-    overflow: hidden;    
+    background-color: #fff;
+    overflow: hidden;
     transition: 0.3s;
-  }
-  .card-header{
+}
+
+.card-header {
     width: 100%;
     height: 200px;
     overflow: hidden;
-  }
-  .card-img {
+}
+
+.card-img {
     min-width: 100%;
     width: auto;
     height: 100%;
-  }
-  .card-body {
+}
+
+.card-body {
     height: 100px;
-    padding: 1px;   
-    
-  }
-  .card-titulo {
+    padding: 1px;
+
+}
+
+.card-titulo {
     font-size: 32px;
     margin: 15px 0;
     text-align: center;
-  }
-  .card-texto {
+}
+
+.card-texto {
     line-height: 24px;
     width: 260px;
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
+}
+
+.grid-one-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+
+}
+
+.grid h3 {
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+}
+.grid-titulo{
+    margin-bottom: 1rem;
+}
+.grid-descricao {
+    padding-bottom: 5rem;
   }
-
-
-
-
-
-
-
-
