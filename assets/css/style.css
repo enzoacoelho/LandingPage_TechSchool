@@ -250,3 +250,30 @@ h6 {
 .grid-descricao {
     padding-bottom: 5rem;
   }
+  .features-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    min-height: 100vh;
+
+}
+
+.features-content-video{
+    position: relative;    
+    height: 347px;
+    padding-bottom: 3em;
+    background-color: #FFF;
+    box-shadow: 0.25em 0.25em 1.25em 0 rgba(120,135,182,.3);
+    border: 1em solid #FFF;
+    z-index: 2;
+
+
+}
+
+.features-content-texto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
