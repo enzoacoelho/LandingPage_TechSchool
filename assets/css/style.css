@@ -2,7 +2,7 @@
     --primary-color: #0A1128;
     --white-color:#fff;
     --light-gray-color:#EEEEEE;
-    --gap: 2rem;
+    --gap: 3rem;
 }
 
 *{
@@ -17,9 +17,9 @@ html{
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
-    color:var(--primary-color)
-
-    
+    color:var(--primary-color);
+    line-height: 1.6;
+       
 
 }
 a{
@@ -63,6 +63,7 @@ h6{
 }
 .white-bg{
     background: var(--white-color);
+    color: var(--primary-color)
     
 }
 .menu{
@@ -122,3 +123,26 @@ h6{
     left: 25%;
   
 }
+.menu-spacing{
+    height: 65px;
+
+}
+.intro-content {
+    position: relative;
+    /* top: -8rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    min-height: 100vh;
+  }
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  .intro-text-content h2{
+    text-transform: uppercase;
+    font-size: 5rem;
+    
+  }
